@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css"/>
+    
+  </head>
+  <body>
+    <h1 class="main-heading">Select your favourite place</h1>
+    <form id="favouritePlaces">
+        <input type="radio" name="places" id="lucknow" value="Lucknow"/>
+        <label for="lucknow">Lucknow</label>
+        <div class="d-flex flex-column">
+            <input type="radio"  checked name="places" id="agra" value="Agra"/>
+            <label for="agra">Agra</label>
+        </div>
+        <input type="radio" name="places" value="Varanasi" id="varanasi"/>
+        <label for="varanasi">Varanasi</label>
+        <div>
+        <button type="submit" class="button" id="submitBtn">Submit</button>
+        </div>
+    </form>
+    <p id="message"></p>
+      
+   <script src="index.js"></script>
+  </body>
+</html>
